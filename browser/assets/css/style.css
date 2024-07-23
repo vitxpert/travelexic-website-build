@@ -2709,7 +2709,7 @@ input:focus, textarea:focus, select:focus{
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #fff;
+  color: #f6b024;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -2728,7 +2728,7 @@ input:focus, textarea:focus, select:focus{
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #5db1f9;
+  color: #f6b024;
   font-size: 18px;
   line-height: 1;
 }
