@@ -142,16 +142,16 @@
 })
 
 
-on('click', ".remove-nav", function(e) {
+// on('click', ".remove-nav", function(e) {
   
-  if (navbar.classList.contains('navbar-mobile')) {
-    let navbar = select('#navbar');
-    navbar.classList.remove('navbar-mobile')
-    let navbarToggle = select('.mobile-nav-toggle')
-    navbarToggle.classList.toggle('bi-list')
-    navbarToggle.classList.toggle('bi-x')
-  }
-})
+//   if (navbar.classList.contains('navbar-mobile')) {
+//     let navbar = select('#navbar');
+//     navbar.classList.remove('navbar-mobile')
+//     let navbarToggle = select('.mobile-nav-toggle')
+//     navbarToggle.classList.toggle('bi-list')
+//     navbarToggle.classList.toggle('bi-x')
+//   }
+// })
 
   var elements3 = document.getElementsByClassName("remove-nav");
 
