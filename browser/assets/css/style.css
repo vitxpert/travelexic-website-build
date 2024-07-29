@@ -448,6 +448,7 @@ h6 {
 .slider-button{
   color: #fff;
   background-color: #F6B024;
+  border-color: #F6B024;
   padding: 0.5rem;
     border-radius: 20px;
     display: inline-block;
