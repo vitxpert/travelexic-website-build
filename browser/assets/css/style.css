@@ -574,9 +574,15 @@ h6 {
   }
 }
 #hero h2 {
+  width: 600px;
+  font-size: 70px;
+  font-weight: 550;
   color: #1e51a4;
-  font-size: 48px;
-  font-weight: 700;
+  @media only screen and (max-width: 768px) {
+    width:100%;
+    font-size: 25px;
+    text-align:center;
+  }
 }
 
 #hero p {
@@ -2104,7 +2110,7 @@ section {
 }
 
 .blog .entry .entry-title {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: bold;
   padding: 0;
   margin: 0 0 20px 0;
@@ -2139,7 +2145,7 @@ section {
 
 .blog .entry .entry-meta i {
   font-size: 16px;
-  margin-right: 8px;
+  margin-right: 0px;
   line-height: 0;
 }
 
