@@ -2933,6 +2933,7 @@ input:focus, textarea:focus, select:focus{
 #Featured_img{
   height:250px !important;
   width: 100% !important;
+  object-fit: cover;
 }
 .blog{
   background-color: white;
