@@ -4,6 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
 (function() {
   "use strict";
 
@@ -141,6 +142,21 @@
     this.classList.toggle('bi-x')
 })
 
+
+document.addEventListener("click", function(e){
+  const target = e.target.closest(".table__link"); 
+  if(target){
+    const targetClass = target.getAttribute("rel");
+    const targetElement = document.querySelector("."+targetClass);
+    var offsets = targetElement.offsetTop-80;
+  //  targetElement.scrollIntoView();
+
+    window.scrollTo({
+          top: offsets,
+          behavior: "smooth"
+    });
+  }
+});
 
   var elements3 = document.getElementsByClassName("remove-nav");
 
