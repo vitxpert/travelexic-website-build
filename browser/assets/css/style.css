@@ -3018,3 +3018,7 @@ input:focus, textarea:focus, select:focus{
 .hero-span{
   color: #F6B024;
 }
+
+.microsite-container p{
+  font-size: 18px;
+}
