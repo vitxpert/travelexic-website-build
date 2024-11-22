@@ -220,6 +220,8 @@ on('click', '.navbar .dropdown > a', function(e) {
     });
   }
 
+
+
   /**
    * Clients Slider
    */
@@ -329,5 +331,7 @@ on('click', '.navbar .dropdown > a', function(e) {
       mirror: false
     })
   });
+
+
 
 })()
