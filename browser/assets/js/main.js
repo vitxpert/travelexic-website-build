@@ -158,6 +158,22 @@ document.addEventListener("click", function(e){
   }
 });
 
+var popup_visibile = false;
+
+  document.addEventListener("scroll", function(){
+    const targetElement2 = document.querySelector(".website-body");
+  
+  //  console.log(targetElement2.offsetHeight);
+   // var getCurrentScroll = window.pageYOffset/2;
+    if(window.pageYOffset > (targetElement2.offsetHeight/2) && popup_visibile == false)
+    {
+      document.getElementById('quick_enquiry').click();
+      popup_visibile = true;
+    }
+  }); 
+
+
+
   var elements3 = document.getElementsByClassName("remove-nav");
 
   var myFunction = function() {
